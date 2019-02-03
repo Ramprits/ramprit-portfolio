@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  css-with-react:
+    image: css-with-react
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 6633:6633
